@@ -21,14 +21,11 @@ class CardApple extends StatelessWidget {
                     backgroundColor: Colors.red[500],
                     radius: 40,
                     child: const CircleAvatar(
-                      backgroundImage:
-                          AssetImage("assets/manzana.png"), //NetworkImage
+                      backgroundImage: AssetImage("assets/manzana.png"),
                       radius: 35,
                       backgroundColor: Color.fromARGB(255, 252, 170, 164),
-                    ), //CircleAvatar
+                    ),
                   ),
-                  //child: Image.asset("assets/banana.png"),
-                  //flex: 2,
                 ),
               ),
               Expanded(
@@ -37,7 +34,6 @@ class CardApple extends StatelessWidget {
                   child: Column(
                     children: const [
                       Expanded(
-                        flex: 5,
                         child: ListTile(
                           title: Text("Apple,raw"),
                           subtitle: Text("fdcID: 1102644"),
@@ -46,7 +42,6 @@ class CardApple extends StatelessWidget {
                     ],
                   ),
                 ),
-                flex: 8,
               ),
             ],
           ),

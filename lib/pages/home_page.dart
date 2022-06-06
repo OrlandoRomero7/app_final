@@ -25,9 +25,13 @@ class HomePage extends StatelessWidget {
                 SizedBox(height: 20),
                 Center(
                   child: Text(
-                    "¡Bienvendo!\nDesliza el menu para mirar las etiquetas nutricionales de alimentos o ingredientes de estos.",
+                    "¡Bienvenido!\nDesliza el menú para mirar las etiquetas nutricionales de alimentos o ingredientes de estos.",
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 20),
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ]),

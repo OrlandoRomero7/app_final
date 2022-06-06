@@ -20,17 +20,14 @@ class CardMilk extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: CircleAvatar(
-                    backgroundColor: Colors.yellow[500],
+                    backgroundColor: Colors.blue[400],
                     radius: 40,
                     child: const CircleAvatar(
-                      backgroundImage:
-                          AssetImage("assets/leche.jpg"), //NetworkImage
+                      backgroundImage: AssetImage("assets/leche.jpg"),
                       radius: 35,
                       backgroundColor: Colors.white,
-                    ), //CircleAvatar
+                    ),
                   ),
-                  //child: Image.asset("assets/banana.png"),
-                  //flex: 2,
                 ),
               ),
               Expanded(
@@ -48,7 +45,6 @@ class CardMilk extends StatelessWidget {
                     ],
                   ),
                 ),
-                flex: 8,
               ),
             ],
           ),

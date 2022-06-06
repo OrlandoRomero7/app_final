@@ -12,7 +12,6 @@ class CardPizza extends StatelessWidget {
         child: SizedBox(
           height: 100,
           width: 350,
-          //color: Colors.white,
           child: Row(
             children: [
               Center(
@@ -22,14 +21,11 @@ class CardPizza extends StatelessWidget {
                     backgroundColor: Colors.yellow[500],
                     radius: 40,
                     child: const CircleAvatar(
-                      backgroundImage:
-                          AssetImage("assets/pizza.png"), //NetworkImage
-                      radius: 35,
+                      backgroundImage: AssetImage("assets/pizza.png"),
                       backgroundColor: Colors.white,
-                    ), //CircleAvatar
+                      radius: 35,
+                    ),
                   ),
-                  //child: Image.asset("assets/banana.png"),
-                  //flex: 2,
                 ),
               ),
               Expanded(
@@ -38,7 +34,6 @@ class CardPizza extends StatelessWidget {
                   child: Column(
                     children: const [
                       Expanded(
-                        flex: 5,
                         child: ListTile(
                           title: Text("Pizza\tBranded: Connie's"),
                           subtitle: Text("fdcID: 2032005"),
@@ -47,7 +42,6 @@ class CardPizza extends StatelessWidget {
                     ],
                   ),
                 ),
-                flex: 8,
               ),
             ],
           ),

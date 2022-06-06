@@ -18,17 +18,14 @@ class CardBread extends StatelessWidget {
                 child: Padding(
                   padding: const EdgeInsets.all(10),
                   child: CircleAvatar(
-                    backgroundColor: Colors.yellow[500],
+                    backgroundColor: Colors.brown[600],
                     radius: 40,
                     child: const CircleAvatar(
-                      backgroundImage:
-                          AssetImage("assets/white_bread.png"), //NetworkImage
+                      backgroundImage: AssetImage("assets/white_bread.png"),
                       radius: 35,
                       backgroundColor: Colors.white,
-                    ), //CircleAvatar
+                    ),
                   ),
-                  //child: Image.asset("assets/banana.png"),
-                  //flex: 2,
                 ),
               ),
               Expanded(
@@ -37,7 +34,6 @@ class CardBread extends StatelessWidget {
                   child: Column(
                     children: const [
                       Expanded(
-                        //flex: 2,
                         child: ListTile(
                           title: Text("\nBread"),
                           subtitle: Text(
@@ -47,7 +43,6 @@ class CardBread extends StatelessWidget {
                     ],
                   ),
                 ),
-                flex: 8,
               ),
             ],
           ),

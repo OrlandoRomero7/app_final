@@ -18,17 +18,14 @@ class CardBanana extends StatelessWidget {
                 child: Padding(
                   padding: EdgeInsets.all(10),
                   child: CircleAvatar(
-                    backgroundColor: Colors.yellow[500],
+                    backgroundColor: Colors.yellow[800],
                     radius: 40,
                     child: const CircleAvatar(
-                      backgroundImage:
-                          AssetImage("assets/banana.png"), //NetworkImage
+                      backgroundImage: AssetImage("assets/banana.png"),
                       radius: 35,
                       backgroundColor: Colors.white,
-                    ), //CircleAvatar
+                    ),
                   ),
-                  //child: Image.asset("assets/banana.png"),
-                  //flex: 2,
                 ),
               ),
               Expanded(
@@ -37,7 +34,6 @@ class CardBanana extends StatelessWidget {
                   child: Column(
                     children: const [
                       Expanded(
-                        flex: 5,
                         child: ListTile(
                           title: Text("\nBanana,raw"),
                           subtitle:
@@ -47,7 +43,6 @@ class CardBanana extends StatelessWidget {
                     ],
                   ),
                 ),
-                flex: 8,
               ),
             ],
           ),

@@ -130,7 +130,7 @@ class RichType extends StatelessWidget {
       ),
       RichText(
         text: TextSpan(
-          text: 'Food Category: ',
+          text: 'FDC ID: ',
           style: const TextStyle(
               fontWeight: FontWeight.bold, color: Colors.black, fontSize: 15),
           children: <TextSpan>[
